@@ -28,11 +28,11 @@ Our open-source ecosystem is organized into five targeted functional layers:
 
 | Focus Area | Repository | Core Description | Primary Stack |
 | :--- | :--- | :--- | :--- |
-| **Causal Diagnostics** | [`inspect`](https://github.com/datagotchi/inspect) | Visual workflow engine mapping human & system dependencies via graph structures. | TypeScript |
+| **Causal Graph Platform** | [`inspect`](https://github.com/datagotchi/inspect) | Full Next.js platform engine rendering Bayesian causal networks as $a \rightarrow b$ slices. | TypeScript / Next.js |
 | **Sensemaking & Product** | [`pmboard`](https://github.com/datagotchi/pmboard) | Spatial dashboard linking user research, features, and metric evaluations. | JavaScript |
 | **Sovereign Career** | [`counteroffer`](https://github.com/datagotchi/counteroffer) | Decentralized recruiter engagement & opportunity negotiation platform. | TypeScript |
 | **Sensory Research** | [`fieldnotes`](https://github.com/datagotchi/fieldnotes) | Local-first sensory/behavioral research & observational data logger. | JavaScript |
-| **Deterministic Automation** | [`copilot`](https://github.com/datagotchi/copilot) | Human-in-the-loop workflow orchestration without black-box token waste. | Polyglot |
+| **Workflow Design & Automation** | [`copilot`](https://github.com/datagotchi/copilot) | Human-in-the-loop workflow design & deterministic automation without LLM token waste. | Polyglot |
 
 ---
 
