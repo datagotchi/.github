@@ -2,8 +2,9 @@
 
 > **Restoring Data Sovereignty | Dismantling Digital Enclosure | Pragmatic Systems Engineering**
 
-Datagotchi Labs is an independent R&D lab and B2B consulting practice focused on resolving operational friction, data debt, and systemic noise. We replace corporate "tokenmaxxing" AI hype with deterministic, human-in-the-loop engineering and sovereign data infrastructure.
+Datagotchi Labs is an independent R&D lab and B2B consulting practice focused on mapping, visualizing, and optimizing human & technology workflows across organizations. 
 
+We build API-first, visual orchestration infrastructure using robust data pipelines (leveraging Apache SeaTunnel and n8n) to eliminate operational friction and data debt. By prioritizing deterministic, human-in-the-loop system architecture over black-box automation, we naturally eliminate unnecessary token waste and restore total operational clarity.
 ---
 
 ## 🛡️ The Thesis: Countering the Digital Enclosure
@@ -20,25 +21,17 @@ We license our core libraries and primitives under the **GNU Lesser General Publ
 
 ---
 
-## 🗺️ Repository Architecture Map
+🗺️ Repository Architecture Map
 
-Our open-source ecosystem is organized into four modular functional layers:
+Our open-source ecosystem is organized into five targeted functional layers:
 
 | Focus Area | Repository | Core Description | Primary Stack |
 | :--- | :--- | :--- | :--- |
-| **Causal Diagnostics & AI** | [`inspect`](https://github.com/datagotchi/inspect) | Causal network mapping & system dependency visualization engine. | TypeScript |
-| | [`inspect-app`](https://github.com/datagotchi/inspect-app) | Web interface for interactive network slice rendering. | TypeScript |
-| | [`copilot`](https://github.com/datagotchi/copilot) | Human-in-the-loop AI integration & automation without LLM token waste. | Polyglot |
-| | [`fieldnotes`](https://github.com/datagotchi/fieldnotes) | Local-first sensory/behavioral research & observational data logger. | JavaScript |
-| **Sensemaking & Product** | [`pmboard`](https://github.com/datagotchi/pmboard) | Spatial dashboard linking user research, features, and metric evaluations. | JavaScript |
-| | [`persona`](https://github.com/datagotchi/persona) | Schema-driven data store & API for user persona models. | JavaScript |
-| | [`evaluator`](https://github.com/datagotchi/evaluator) | Algorithmic matching of qualifications against skill requirements. | JavaScript |
-| **Sovereign Career Primitives** | [`counteroffer`](https://github.com/datagotchi/counteroffer) | Decentralized recruiter engagement & opportunity negotiation platform. | TypeScript |
-| | [`counteroffer-archive`](https://github.com/datagotchi/counteroffer-archive) | Historical job opportunity tracking & candidate portfolio integration. | JavaScript |
-| | [`counteroffer-messenger`](https://github.com/datagotchi/counteroffer-messenger) | Direct messaging integration for sovereign candidate-recruiter comms. | JavaScript |
-| | [`portfolio-creator`](https://github.com/datagotchi/portfolio-creator) | Visualizer & renderer for structured, resume-inspired portfolios. | JavaScript |
-| | [`annotator`](https://github.com/datagotchi/annotator) | PDF parsing and visual resume annotation tool. | JavaScript |
-| **Data Pipelines & Services** | [`illuminate-service`](https://github.com/datagotchi/illuminate-service) | Core data extraction scripts and API pipeline integrations. | JavaScript |
+| **Causal Diagnostics** | **inspect** | Visual workflow engine mapping human & system dependencies via graph structures. | TypeScript |
+| **Sensemaking & Product** | **pmboard** | Spatial dashboard linking user research, features, and metric evaluations. | JavaScript |
+| **Sovereign Career** | **counteroffer** | Decentralized recruiter engagement & opportunity negotiation platform. | TypeScript |
+| **Sensory Research** | **fieldnotes** | Local-first sensory/behavioral research & observational data logger. | JavaScript |
+| **Deterministic Automation** | **copilot** | Human-in-the-loop workflow orchestration without black-box token waste. | Polyglot |
 
 ---
 
